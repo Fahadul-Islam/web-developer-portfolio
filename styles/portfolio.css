@@ -1,5 +1,6 @@
 /* common shared style */
 body {
+    font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -12,6 +13,19 @@ body {
     font-weight: 700;
     padding: 18px 36px;
 
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
 }
 
 /* nav related styles */
@@ -59,6 +73,11 @@ nav a {
     padding: 30px 30px 0 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.banner-contant {
+    max-width: 500px;
 }
 
 .banner .profile-pic {
@@ -84,4 +103,47 @@ nav a {
     font-weight: 400;
     margin-bottom: 30px;
 
+}
+
+/* main section style */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section style */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
+
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
+}
+
+.info-title {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.info-description {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+#what-i-do-description{
+    padding: 30px 150px;
 }
